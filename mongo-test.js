@@ -1,6 +1,6 @@
 //"use strict";
 var mongoClient = require("mongodb").MongoClient;
-var url = "mongodb://wgcosmos123:sQnctn9iV3mUxG0XwrQhkz2K2RtCZcVQjvdglNqUWAKC13ALXhgzkoByqKy055vf6ObHUZdQzi2SS70wBWmFVg%3D%3D@wgcosmos123.documents.azure.com:10255/?ssl=true";
+var url = "mongodb://something.com:10255/?ssl=true";
 
 mongoClient.connect(url, function (err, db){
     if (err) throw err;    
