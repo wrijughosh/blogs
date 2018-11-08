@@ -1,4 +1,4 @@
-# Codes related to Wriju's Blogs
+# Welcome to Wriju's Blogs
 
 All the files are for the Blogs maintained here. Please feel free to use them and no need to take any permission. 
 
