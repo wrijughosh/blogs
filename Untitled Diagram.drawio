@@ -1,1 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2021-03-19T16:24:11.954Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="13.7.2" etag="4E8-lzl_GuBK-k8i580k" type="github"><diagram id="c7rm5pbLkWr6OXTQEEWw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-19T16:45:55.174Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="_6wyPgaxm2wFgEl7fFC5" version="13.7.2" type="github">
+  <diagram id="c7rm5pbLkWr6OXTQEEWw" name="Page-1">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d18pabWWqpPri7e5Epa1-1" value="SQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="280" y="49" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-2" value="Web Server" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="48" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-3" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="87" as="sourcePoint" />
+            <mxPoint x="280" y="87.33333333333337" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="88" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-5" value="On-premises today" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="130" y="160" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-11" value="Azure SQL DB" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database_sql_azure;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="286.25" y="320" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-13" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="d18pabWWqpPri7e5Epa1-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="145" y="345" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-14" value="Azure : Phase 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="150" y="502" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-15" value="Web Server VM" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="90" y="325" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-17" value="Azure Files" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="90" y="435" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-20" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="d18pabWWqpPri7e5Epa1-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="115" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-21" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Logic_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="615" y="286" width="50" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="d18pabWWqpPri7e5Epa1-22" target="d18pabWWqpPri7e5Epa1-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-22" value="Approved" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="590" y="375" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-23" value="Email Sent" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;outlineConnect=0;verticalAlign=top;align=center;shape=mxgraph.office.clouds.office_365;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="590" y="481" width="101" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-24" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=12;exitX=0.508;exitY=0.969;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="d18pabWWqpPri7e5Epa1-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="526" as="sourcePoint" />
+            <mxPoint x="640" y="366" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-28" value="Email Notification workflow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=17;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="521" y="600" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-35" value="Azure SQL DB" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database_sql_azure;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="296.25" y="562" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-36" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="d18pabWWqpPri7e5Epa1-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="155" y="587" as="sourcePoint" />
+            <mxPoint x="450" y="482" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-37" value="Azure : Phase 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="160" y="744" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-39" value="Azure Files" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="100" y="677" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-40" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="d18pabWWqpPri7e5Epa1-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="125" y="632" as="sourcePoint" />
+            <mxPoint x="450" y="682" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-41" value="Web App" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_website;pointerEvents=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="563" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d18pabWWqpPri7e5Epa1-42" value="Note: Code change is needed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="120" y="770" width="220" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
